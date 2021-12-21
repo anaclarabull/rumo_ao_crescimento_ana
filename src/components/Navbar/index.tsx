@@ -1,4 +1,3 @@
-import { ReactComponent as MainImage } from 'assets/images/acessibilidade.svg';
 import { ReactComponent as LogImage } from 'assets/images/logo.svg';
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';

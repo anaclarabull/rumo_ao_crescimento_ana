@@ -3,6 +3,7 @@ import Home from 'pages/Home';
 import Navbar from 'components/Navbar';
 import Admin from 'pages/Admin';
 import Cenario from 'pages/Cenario';
+import Login from 'pages/Login';
 
 const Routes = () => (
   <BrowserRouter>
@@ -10,6 +11,9 @@ const Routes = () => (
     <Switch>
       <Route path="/" exact>
         <Home />
+      </Route>
+      <Route path="/login" exact>
+        <Login />
       </Route>
       <Route path="/products">
         <Cenario />
